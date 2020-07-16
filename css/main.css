@@ -1,0 +1,558 @@
+@import url(../css/fonts.css);
+.container {
+  width: 1170px;
+  margin: 0 auto;
+  max-width: 100%;
+}
+
+a {
+  -webkit-transition: all .4s ease-in;
+  transition: all .4s ease-in;
+  text-decoration: none !important;
+}
+
+.active {
+  color: #FFF;
+  background-color: #009CE3;
+}
+
+.section-head {
+  font: bold 3.125rem Montserrat Extra Bold, sans-serif;
+  text-align: center;
+  padding: .5em 0;
+}
+
+.btn {
+  padding: .5em 2em;
+  font: normal 1.25rem Sours Sans Pro Regular, sans-serif !important;
+  text-decoration: none;
+  background-color: #FA4A33;
+  color: #FFF;
+  border: 2px solid transparent;
+  border-radius: 25px;
+  -webkit-box-shadow: 0 5px 8px 0 rgba(0, 2, 1, 0.6);
+          box-shadow: 0 5px 8px 0 rgba(0, 2, 1, 0.6);
+  -webkit-transition: all ease-in .4s;
+  transition: all ease-in .4s;
+}
+
+.btn:hover {
+  color: #FA4A33;
+  background-color: #FFF;
+  border: 2px solid #FA4A33;
+}
+
+#header {
+  border-bottom: 5px solid #009CE3;
+}
+
+#header .black-part-wrapper {
+  background-color: #000;
+}
+
+#header .black-part-wrapper .social-list {
+  margin-top: 1em;
+}
+
+#header .black-part-wrapper .social-list .social-item {
+  margin: 0 .2em;
+}
+
+#header .black-part-wrapper .social-list .social-item .social-item-link {
+  display: block;
+  text-align: center;
+  width: 32px;
+  height: 32px;
+  padding: .4em .2em .2em .2em;
+  border-radius: 50%;
+  -webkit-transform: scale(-1, 1);
+          transform: scale(-1, 1);
+  -webkit-transform: perspective(300px) rotateY(0deg);
+          transform: perspective(300px) rotateY(0deg);
+}
+
+#header .black-part-wrapper .social-list .social-item .social-item-link:hover {
+  -webkit-transition: all linear .5s;
+  transition: all linear .5s;
+  -webkit-transform: perspective(300px) rotateY(360deg);
+          transform: perspective(300px) rotateY(360deg);
+}
+
+#header .black-part-wrapper .social-list .social-item .facebook {
+  color: #FFF;
+  background-color: #3B5998;
+}
+
+#header .black-part-wrapper .social-list .social-item .facebook:hover {
+  color: #3B5998;
+  background-color: #FFF;
+}
+
+#header .black-part-wrapper .social-list .social-item .google {
+  color: #FA4A33;
+  background-color: #FFF;
+}
+
+#header .black-part-wrapper .social-list .social-item .google:hover {
+  color: #FFF;
+  background-color: #FA4A33;
+}
+
+#header .black-part-wrapper .social-list .social-item .twitter {
+  color: #FFF;
+  background-color: #55ACEE;
+}
+
+#header .black-part-wrapper .social-list .social-item .twitter:hover {
+  color: #55ACEE;
+  background-color: #FFF;
+}
+
+#header .black-part-wrapper .contact-list .contact-item {
+  margin: 0 1em 0 0;
+}
+
+#header .black-part-wrapper .contact-list .contact-item .contact-item-link {
+  color: #FFF;
+  font: normal 1.0625rem ProximaNova Semi-Bold, sans-serif;
+}
+
+#header .black-part-wrapper .contact-list .contact-item .contact-item-link:hover {
+  color: #FA4A33;
+}
+
+#header .black-part-wrapper .contact-list .contact-item .contact-item-link:hover i {
+  color: #FFF;
+  -webkit-transition: all linear .5s;
+  transition: all linear .5s;
+  -webkit-transform: perspective(300px) rotateY(360deg);
+          transform: perspective(300px) rotateY(360deg);
+}
+
+#header .black-part-wrapper .contact-list .contact-item .contact-item-link i {
+  -webkit-transform: scale(-1, 1);
+          transform: scale(-1, 1);
+  -webkit-transform: perspective(300px) rotateY(0deg);
+          transform: perspective(300px) rotateY(0deg);
+  margin-right: .5em;
+}
+
+#header .white-part {
+  background-color: #FFF;
+  padding: 1.5em 0;
+}
+
+#header .white-part .navbar {
+  padding: 0;
+}
+
+#header .white-part .navbar .site-title .logo {
+  color: #0D3693;
+  font: normal 2.25rem Montserrat Bold, sans-serif;
+  -webkit-transition: all ease-in .4s;
+  transition: all ease-in .4s;
+}
+
+#header .white-part .navbar .site-title .logo span {
+  -webkit-transform: all linear .2s;
+          transform: all linear .2s;
+  color: #009CE3;
+}
+
+#header .white-part .navbar .site-title .logo:hover {
+  -webkit-transition: all ease-in .4s;
+  transition: all ease-in .4s;
+  color: #009CE3;
+}
+
+#header .white-part .navbar .site-title .logo:hover span {
+  -webkit-transition: all ease-in .4s;
+  transition: all ease-in .4s;
+  color: #0D3693;
+}
+
+#header .white-part .navbar .navbar-collapse .navbar-nav .nav-item .nav-link {
+  padding: .2em 2em;
+  font: normal 1.25rem Sours Sans Pro Regular, sans-serif;
+  color: #000;
+}
+
+#header .white-part .navbar .navbar-collapse .navbar-nav .nav-item .nav-link:hover {
+  color: #FFF;
+  background-color: #009CE3;
+}
+
+#first {
+  padding: 5em 0;
+  background-image: url(../img/background.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#first .main-title {
+  font: bold 4.5rem Montserrat Extra Bold, sans-serif;
+  color: #FFF;
+}
+
+#first .price-tag {
+  background-image: url(../img/price-tag.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  display: block;
+  padding: .2em 0;
+  color: #FA4A33;
+  position: relative;
+  font: bold 3.125rem Montserrat Extra Bold, sans-serif;
+}
+
+#first .description-price {
+  color: #FFF;
+  font: bold 2.375rem Sours Sans Pro Semi-Bold, sans-serif;
+}
+
+#first .contact-inf .contact-inf-title {
+  font: bold 2.25rem Montserrat Bold, sans-serif;
+  color: #FFF;
+}
+
+#first .contact-inf .contact-inf-list .contact-inf-item {
+  margin: .5em 0;
+}
+
+#first .contact-inf .contact-inf-list .contact-inf-item .contact-inf-item-link {
+  display: block;
+  color: #FFF;
+  font: bold 1.875rem Sours Sans Pro Bold, sans-serif;
+  word-wrap: break-word;
+  padding: 0 .2em;
+}
+
+#first .contact-inf .contact-inf-list .contact-inf-item .contact-inf-item-link i {
+  position: absolute;
+  top: 28px;
+  left: 22px;
+  -webkit-transform: scale(-1, 1);
+          transform: scale(-1, 1);
+  -webkit-transform: perspective(300px) rotateY(0deg);
+          transform: perspective(300px) rotateY(0deg);
+}
+
+#first .contact-inf .contact-inf-list .contact-inf-item .contact-inf-item-link:hover {
+  color: #FA4A33;
+}
+
+#first .contact-inf .contact-inf-list .contact-inf-item .contact-inf-item-link:hover i {
+  -webkit-transition: all linear .5s;
+  transition: all linear .5s;
+  -webkit-transform: perspective(300px) rotateY(360deg);
+          transform: perspective(300px) rotateY(360deg);
+  color: #FFF;
+}
+
+#first .contact-inf .contact-inf-list .contact-inf-item .email {
+  position: relative;
+}
+
+#first .contact-inf .contact-inf-list .contact-inf-item .skype {
+  position: relative;
+}
+
+#first .contact-inf .contact-inf-list .contact-inf-item .skype i {
+  top: 25px;
+  left: 45px;
+}
+
+#about-us {
+  padding: 5em 0;
+}
+
+#about-us .description-list .description-item {
+  margin-bottom: 2em;
+  margin-left: 5em;
+  position: relative;
+}
+
+#about-us .description-list .description-item::before {
+  position: absolute;
+  display: block;
+  content: '';
+  width: 100px;
+  height: 100px;
+  background-image: url(../img/done.png);
+  background-size: contain;
+  top: -20px;
+  left: -90px;
+}
+
+#about-us .description-list .description-item .description-item-text {
+  font: 1.1875rem Sours Sans Pro Semi-Bold, sans-serif;
+}
+
+#about-us .head-block {
+  margin: 55px 0 36px 0;
+  font: 50px Montserrat Extra Bold, sans-serif;
+  text-align: center;
+}
+
+#about-us .head-block span {
+  color: #FA4A33;
+}
+
+#about-us .card-deck .card {
+  border-style: none;
+  position: relative;
+}
+
+#about-us .card-deck .card img {
+  position: relative;
+  left: 30%;
+  margin-bottom: 10px;
+}
+
+#about-us .card-deck .card .card-footer {
+  background-color: transparent;
+  border-style: none;
+  font: 19px Sours Sans Pro Semi-Bold, sans-serif;
+}
+
+#contact-us {
+  background-image: url(../img/background-2.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#contact-us .section-head {
+  color: #FFF;
+}
+
+#contact-us .contact-list .contact-item {
+  margin: .5em 0;
+}
+
+#contact-us .contact-list .contact-item .addres {
+  color: #FFF;
+  padding-top: 1em;
+  font: bold 1.1875rem Sours Sans Pro Bold, sans-serif;
+}
+
+#contact-us .contact-list .contact-item img {
+  position: relative;
+}
+
+#contact-us .contact-list .contact-item .contact-item-link {
+  color: #FFF;
+  font: bold 1.1875rem Sours Sans Pro Bold, sans-serif;
+  -webkit-transition: all .4s ease-in;
+  transition: all .4s ease-in;
+}
+
+#contact-us .contact-list .contact-item .contact-item-link:hover {
+  color: #FA4A33;
+}
+
+#contact-us .contact-list .contact-item i {
+  position: absolute;
+  color: #FFF;
+  font-size: 1.75rem;
+  top: 0;
+  left: 0;
+}
+
+#contact-us .contact-list .contact-item .fa-map-marker-alt {
+  top: 33px;
+  left: 70px;
+}
+
+#contact-us .contact-list .contact-item .fa-envelope {
+  top: 30px;
+  left: 30px;
+}
+
+#contact-us .contact-list .contact-item .fa-skype {
+  top: 25px;
+  left: 55px;
+}
+
+#why-us .description-wrapper .description {
+  padding: 2em 0;
+  font: 1.1875rem Sours Sans Pro Semi-Bold, sans-serif;
+}
+
+#why-us .benefits .benefits-list .benefits-item {
+  margin: 1em 0;
+}
+
+#why-us .benefits .benefits-list .benefits-item .benefits-item-title {
+  font: bold 1.875rem Sours Sans Pro Bold, sans-serif;
+  color: #0D3693;
+}
+
+#why-us .benefits .benefits-list .benefits-item .benefits-item-description {
+  font: bold 1.1875rem Sours Sans Pro Bold, sans-serif;
+}
+
+#faq .accordion .card {
+  border: none;
+}
+
+#faq .accordion .card .card-header {
+  border-bottom: 2px solid #9B9B9B;
+  background-color: transparent;
+}
+
+#faq .accordion .card .card-header .btn-link {
+  font: bold 1.875rem Sours Sans Pro Bold, sans-serif;
+}
+
+#faq .accordion .card .card-body {
+  font: normal 1.1875rem Sours Sans Pro Regular, sans-serif;
+}
+
+#faq .accordion .card .show {
+  border-top: 1px solid #9B9B9B;
+  border-bottom: 2px solid #9B9B9B;
+}
+
+#faq .accordion .card .show .btn-link {
+  color: #0D3693;
+}
+
+#post-now .post-wrapper {
+  margin-bottom: 10%;
+}
+
+#post-now .post-description p {
+  font: normal 1.1875rem Sours Sans Pro Bold, sans-serif;
+  line-height: 2rem;
+}
+
+#post-now .card-deck {
+  padding-bottom: 5%;
+}
+
+#post-now .card-deck .card {
+  border-style: none;
+}
+
+#post-now .card-deck .card img {
+  margin-left: 35%;
+  padding-bottom: 30px;
+}
+
+#post-now .card-deck .card .card-footer {
+  border-style: none;
+  background-color: transparent;
+  text-align: center;
+}
+
+#post-now .card-deck .card .card-footer .card-head {
+  font: bold 1.5625rem Sours Sans Pro Bold, sans-serif;
+  line-height: 21px;
+  color: #0D3693;
+  margin: 0;
+  padding: 0;
+}
+
+#post-now .card-deck .card .card-footer span {
+  padding: .3em 0;
+  font: normal 1.4375rem Sours Sans Pro Bold, sans-serif;
+}
+
+#post-now .card-deck .card .card-footer p {
+  font: normal 1.1875rem Sours Sans Pro Regular, sans-serif;
+}
+
+footer {
+  background-color: #000;
+  padding: 50px 0;
+}
+
+footer .site-title a {
+  text-decoration: none;
+  font: 36px Montserrat Bold, sans-serif;
+  color: #FFF;
+}
+
+footer .site-title a:hover {
+  -webkit-transition: .4 all ease-in;
+  transition: .4 all ease-in;
+  color: #0D3693;
+}
+
+footer .site-title a:hover span {
+  color: #009CE3;
+}
+
+footer .navbar .navbar-toggler {
+  color: #FFF;
+  border-color: #FFF;
+}
+
+footer .navbar .navbar-toggler .navbar-toggler-icon {
+  background-color: #FFF;
+}
+
+footer .navbar-collapse {
+  -webkit-box-flex: 0;
+      -ms-flex-positive: 0;
+          flex-grow: 0;
+}
+
+footer .navbar-collapse .navbar-nav .nav-item a {
+  font: normal 1.0625rem Sours Sans Pro Regular, sans-serif;
+  padding: .5em 2em;
+  color: #FFF;
+}
+
+footer .navbar-collapse .navbar-nav .nav-item a:hover {
+  background-color: #009CE3;
+  color: #FFF;
+}
+
+footer .social-item {
+  margin-right: 12px;
+}
+
+footer .social-item a {
+  display: block;
+  text-decoration: none;
+  background-color: #FFF;
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  -webkit-transform: scale(-1, 1);
+          transform: scale(-1, 1);
+  -webkit-transform: perspective(300px) rotateY(0deg);
+          transform: perspective(300px) rotateY(0deg);
+}
+
+footer .social-item a:hover {
+  -webkit-transition: all linear .5s;
+  transition: all linear .5s;
+  -webkit-transform: perspective(300px) rotateY(360deg);
+          transform: perspective(300px) rotateY(360deg);
+}
+
+footer .social-item a .fa-facebook-f {
+  padding: 8px 0 0 10px;
+}
+
+footer .social-item a .fa-facebook-f:hover {
+  color: #3B5998;
+}
+
+footer .social-item a .fa-google-plus-g {
+  padding: 8px 0 0 7px;
+}
+
+footer .social-item a .fa-google-plus-g:hover {
+  color: #FA4A33;
+}
+
+footer .social-item a .fa-twitter {
+  padding: 8px 0 0 8px;
+}
+
+footer .social-item a .fa-twitter:hover {
+  color: #55ACEE;
+}
